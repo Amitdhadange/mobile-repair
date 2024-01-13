@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.page{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://t4.ftcdn.net/jpg/03/83/91/79/360_F_383917933_KFCdg764q6nNpV7KVYOvAnpqXk95zZs9.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    padding-left: 4vmax;
+    
+}
+.logo{
+    width: 6vmax;
+    height: 7vmax;
+    background-image: url(https://img.pikbest.com/png-images/qiantu/cartoon-mobile-phone-repair-tool-vector_2715996.png!sw800);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav1{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(241, 236, 236); */
+    padding: 0 5vmax;
+}
+.nav1>ul{
+    display: flex;
+    gap: 5vmax;
+    list-style: none;
+    font-weight: 600;
+}
+.nav1>ul>li:hover{
+    cursor: pointer;
+    border-bottom: 1px solid red;
+}
+.left{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5vmax;
+    margin-top: -3vmax;
+}
+.left>h1{
+    font-size: 5vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(73, 60, 60);
+}
+.left>p{
+    font-size: 2vmax;
+    color: rgb(77, 66, 66);
+}
+.btn>button{
+    padding: 1vmax 2vmax;
+    color: rgb(255, 253, 253);    
+    background-color: rgb(37, 144, 148);
+    border: none;
+    border-radius: 10px;
+    margin: 1vmax 2vmax;
+    font-weight: 600;
+}
+.btn>button:active{
+    cursor: pointer;
+    transform: scale(.9);
+    background-color: rgb(2, 94, 97);
+
+}
+
+.btn>.btm{
+background-color: rgb(99, 47, 148);
+color: rgb(255, 251, 251);
+}
+.btn>.btm:active{
+    transform: scale(.9);
+background-color: rgb(69, 10, 125);
+
+}
+.page2{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(241, 236, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid1{
+    width: 95%;
+    height: 70vh;
+    background-color: rgb(241, 236, 236);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(175, 175, 175);
+}
+.box1{
+    width: 30vw;
+    height: 40vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-shadow: 11px 10px 20px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 10px 20px -6px rgba(0,0,0,0.75);
+box-shadow: 11px 10px 20px -6px rgba(0,0,0,0.75);
+}
+.box1>p{
+    font-size: 1.1vmax;
+}
+.box1>.img1{
+    width: 20vw;
+    height:20vh;
+    background-image: url(https://www.shutterstock.com/image-photo/repairing-upgrade-mobile-phone-electronic-260nw-2207604593.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1vmax;
+    margin-top: 1vmax;
+}
+.box2{
+    width: 30vw;
+    height: 40vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-shadow: 11px 10px 20px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 10px 20px -6px rgba(0,0,0,0.75);
+box-shadow: 11px 10px 20px -6px rgba(0,0,0,0.75);
+}
+.box2>p{
+    font-size: 1.1vmax;
+}
+.box2>.img2{
+    width: 21vw;
+    height:20vh;
+    background-image: url(https://www.techstationglasgow.co.uk/wp-content/uploads/2019/09/Tablet-Repair-1024x681-1024x681.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 1vmax;
+    margin-top: 1vmax;
+    background-size: cover;
+}
+.box3{
+    width: 30vw;
+    height: 40vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 11px 10px 20px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 10px 20px -6px rgba(0,0,0,0.75);
+box-shadow: 11px 10px 20px -6px rgba(0,0,0,0.75);
+}
+.box3>p{
+    font-size: 1.1vmax;
+}
+.box3>.img3{
+    width: 21vw;
+    height:20vh;
+    background-image: url(https://www.downtowncomputer.bc.ca/wp-content/uploads/2019/01/desktoprepair1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 1vmax;
+    margin-top: 1vmax;
+    background-size: cover;
+}
+.page3{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(241, 236, 236);
+    display: flex;
+}
+.lefti{
+    width: 50%;
+    height: 80vh;
+    background-image: url(https://m-cdn.phonearena.com/images/article/64576-wide-two_940/The-Best-Phones-to-buy-in-2023---our-top-10-list.webp?1697185989);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.righti{
+    width: 50%;
+    height: 80vh;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.righti>h1{
+    font-size: 3vmax;
+    margin-bottom: 1.5vmax;
+}
+.boxi{
+    width: 95%;
+    height: 70vh;
+    border: 1PX solid black;
+    /* background-color: aqua; */
+}
+.boxi>input{
+    padding: 1vmax 4vmax;
+    margin: 2vmax 1vmax;
+    border-radius: 5px;
+}
+.boxi>.date{
+    padding: 1vmax 6.5vmax;
+}
+.boxi>.time{
+    padding: 1vmax 7vmax;
+}
+.boxi>button{
+    padding: 1vmax 4vmax;
+    margin: .8vmax 1vmax;
+    background-color: royalblue;
+    border: none;
+    margin-left: 17vmax;
+    border-radius: 5px;
+    color: #fff;
+}
+.boxi>button:hover{
+    font-weight: 600;
+    background-color: rgb(16, 49, 149);
+}
+.page4{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(241, 236, 236);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont1>ul{
+    font-size: 1.5vmax;
+    list-style: none;
+    color: rgb(66, 64, 64);
+    line-height: 2vmax;
+}
+.cont1>ul>li:hover{
+    cursor: pointer;
+    font-weight: 600;
+    color: black;
+}
+.cont1>h2{
+    font-size: 2vmax;
+
+}
+.cont2{
+    margin-top: -4vmax;
+
+}
+.cont2>ul{
+    font-size: 1.5vmax;
+    color: rgb(66, 64, 64);
+    list-style: none;
+    line-height: 2vmax;
+}
+.cont2>ul>li:hover{
+    cursor: pointer;
+    font-weight: 600;
+    color: black;
+}
+.cont2>h2{
+    font-size: 2vmax;
+
+}
+.cont3{
+    margin-top: -1vmax;
+
+}
+.cont3>ul>li:hover{
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+}
+.cont3>ul{
+    font-size: 1.5vmax;
+    color: rgb(66, 64, 64);
+    list-style: none;
+    line-height: 2vmax;
+}
+.cont3>.so{
+    display: flex;
+    margin-top: 2vmax;
+    gap: 1vmax;
+}
+.cont3>ul>li>.ri-telegram-line{
+    font-size: 3vmax;
+}
+.cont3>ul>li>.ri-telegram-line:hover{
+    cursor:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.001 22C6.47813 22 2.00098 17.5228 2.00098 12C2.00098 6.47715 6.47813 2 12.001 2C17.5238 2 22.001 6.47715 22.001 12C22.001 17.5228 17.5238 22 12.001 22ZM8.89113 13.1708L8.90378 13.1628C9.48351 15.0767 9.77337 16.0337 9.77337 16.0337C9.88564 16.3442 10.04 16.3996 10.2273 16.3743C10.4145 16.3489 10.5139 16.2476 10.6361 16.1297C10.6361 16.1297 11.0324 15.7472 11.825 14.9823L14.3759 16.8698C14.8407 17.1266 15.1763 16.9941 15.2917 16.4377L16.9495 8.61641C17.1325 7.88842 16.8115 7.59644 16.247 7.82754L6.51397 11.5871C5.84996 11.854 5.85317 12.2255 6.39308 12.3911L8.89113 13.1708Z"></path></svg>'),auto;
+    /* font-weight: 600; */
+    color: whitesmoke;
+}
+.cont3>ul>li>.ri-instagram-line{
+    font-size: 3vmax;
+}
+.cont3>ul>li>.ri-instagram-line:hover{
+    cursor:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.0281 2.00098C14.1535 2.00284 14.7238 2.00879 15.2166 2.02346L15.4107 2.02981C15.6349 2.03778 15.8561 2.04778 16.1228 2.06028C17.1869 2.10944 17.9128 2.27778 18.5503 2.52528C19.2094 2.77944 19.7661 3.12278 20.3219 3.67861C20.8769 4.23444 21.2203 4.79278 21.4753 5.45028C21.7219 6.08694 21.8903 6.81361 21.9403 7.87778C21.9522 8.14444 21.9618 8.36564 21.9697 8.58989L21.976 8.78397C21.9906 9.27672 21.9973 9.8471 21.9994 10.9725L22.0002 11.7182C22.0003 11.8093 22.0003 11.9033 22.0003 12.0003L22.0002 12.2824L21.9996 13.0281C21.9977 14.1535 21.9918 14.7238 21.9771 15.2166L21.9707 15.4107C21.9628 15.6349 21.9528 15.8561 21.9403 16.1228C21.8911 17.1869 21.7219 17.9128 21.4753 18.5503C21.2211 19.2094 20.8769 19.7661 20.3219 20.3219C19.7661 20.8769 19.2069 21.2203 18.5503 21.4753C17.9128 21.7219 17.1869 21.8903 16.1228 21.9403C15.8561 21.9522 15.6349 21.9618 15.4107 21.9697L15.2166 21.976C14.7238 21.9906 14.1535 21.9973 13.0281 21.9994L12.2824 22.0002C12.1913 22.0003 12.0973 22.0003 12.0003 22.0003L11.7182 22.0002L10.9725 21.9996C9.8471 21.9977 9.27672 21.9918 8.78397 21.9771L8.58989 21.9707C8.36564 21.9628 8.14444 21.9528 7.87778 21.9403C6.81361 21.8911 6.08861 21.7219 5.45028 21.4753C4.79194 21.2211 4.23444 20.8769 3.67861 20.3219C3.12278 19.7661 2.78028 19.2069 2.52528 18.5503C2.27778 17.9128 2.11028 17.1869 2.06028 16.1228C2.0484 15.8561 2.03871 15.6349 2.03086 15.4107L2.02457 15.2166C2.00994 14.7238 2.00327 14.1535 2.00111 13.0281L2.00098 10.9725C2.00284 9.8471 2.00879 9.27672 2.02346 8.78397L2.02981 8.58989C2.03778 8.36564 2.04778 8.14444 2.06028 7.87778C2.10944 6.81278 2.27778 6.08778 2.52528 5.45028C2.77944 4.79194 3.12278 4.23444 3.67861 3.67861C4.23444 3.12278 4.79278 2.78028 5.45028 2.52528C6.08778 2.27778 6.81278 2.11028 7.87778 2.06028C8.14444 2.0484 8.36564 2.03871 8.58989 2.03086L8.78397 2.02457C9.27672 2.00994 9.8471 2.00327 10.9725 2.00111L13.0281 2.00098ZM12.0003 7.00028C9.23738 7.00028 7.00028 9.23981 7.00028 12.0003C7.00028 14.7632 9.23981 17.0003 12.0003 17.0003C14.7632 17.0003 17.0003 14.7607 17.0003 12.0003C17.0003 9.23738 14.7607 7.00028 12.0003 7.00028ZM12.0003 9.00028C13.6572 9.00028 15.0003 10.3429 15.0003 12.0003C15.0003 13.6572 13.6576 15.0003 12.0003 15.0003C10.3434 15.0003 9.00028 13.6576 9.00028 12.0003C9.00028 10.3434 10.3429 9.00028 12.0003 9.00028ZM17.2503 5.50028C16.561 5.50028 16.0003 6.06018 16.0003 6.74943C16.0003 7.43867 16.5602 7.99944 17.2503 7.99944C17.9395 7.99944 18.5003 7.43954 18.5003 6.74943C18.5003 6.06018 17.9386 5.49941 17.2503 5.50028Z"></path></svg>'),auto;
+    /* font-weight: 600; */
+    color: whitesmoke;
+}
+.cont3>ul>li>.ri-whatsapp-line{
+    font-size: 3vmax;
+}
+.cont3>ul>li>.ri-whatsapp-line:hover{
+    cursor:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.001 2C17.5238 2 22.001 6.47715 22.001 12C22.001 17.5228 17.5238 22 12.001 22C10.1671 22 8.44851 21.5064 6.97086 20.6447L2.00516 22L3.35712 17.0315C2.49494 15.5536 2.00098 13.8345 2.00098 12C2.00098 6.47715 6.47813 2 12.001 2ZM8.59339 7.30019L8.39232 7.30833C8.26293 7.31742 8.13607 7.34902 8.02057 7.40811C7.93392 7.45244 7.85348 7.51651 7.72709 7.63586C7.60774 7.74855 7.53857 7.84697 7.46569 7.94186C7.09599 8.4232 6.89729 9.01405 6.90098 9.62098C6.90299 10.1116 7.03043 10.5884 7.23169 11.0336C7.63982 11.9364 8.31288 12.8908 9.20194 13.7759C9.4155 13.9885 9.62473 14.2034 9.85034 14.402C10.9538 15.3736 12.2688 16.0742 13.6907 16.4482C13.6907 16.4482 14.2507 16.5342 14.2589 16.5347C14.4444 16.5447 14.6296 16.5313 14.8153 16.5218C15.1066 16.5068 15.391 16.428 15.6484 16.2909C15.8139 16.2028 15.8922 16.159 16.0311 16.0714C16.0311 16.0714 16.0737 16.0426 16.1559 15.9814C16.2909 15.8808 16.3743 15.81 16.4866 15.6934C16.5694 15.6074 16.6406 15.5058 16.6956 15.3913C16.7738 15.2281 16.8525 14.9166 16.8838 14.6579C16.9077 14.4603 16.9005 14.3523 16.8979 14.2854C16.8936 14.1778 16.8047 14.0671 16.7073 14.0201L16.1258 13.7587C16.1258 13.7587 15.2563 13.3803 14.7245 13.1377C14.6691 13.1124 14.6085 13.1007 14.5476 13.097C14.4142 13.0888 14.2647 13.1236 14.1696 13.2238C14.1646 13.2218 14.0984 13.279 13.3749 14.1555C13.335 14.2032 13.2415 14.3069 13.0798 14.2972C13.0554 14.2955 13.0311 14.292 13.0074 14.2858C12.9419 14.2685 12.8781 14.2457 12.8157 14.2193C12.692 14.1668 12.6486 14.1469 12.5641 14.1105C11.9868 13.8583 11.457 13.5209 10.9887 13.108C10.8631 12.9974 10.7463 12.8783 10.6259 12.7616C10.2057 12.3543 9.86169 11.9211 9.60577 11.4938C9.5918 11.4705 9.57027 11.4368 9.54708 11.3991C9.50521 11.331 9.45903 11.25 9.44455 11.1944C9.40738 11.0473 9.50599 10.9291 9.50599 10.9291C9.50599 10.9291 9.74939 10.663 9.86248 10.5183C9.97128 10.379 10.0652 10.2428 10.125 10.1457C10.2428 9.95633 10.2801 9.76062 10.2182 9.60963C9.93764 8.92565 9.64818 8.24536 9.34986 7.56894C9.29098 7.43545 9.11585 7.33846 8.95659 7.32007C8.90265 7.31384 8.84875 7.30758 8.79459 7.30402C8.66053 7.29748 8.5262 7.29892 8.39232 7.30833L8.59339 7.30019Z"></path></svg>'),auto;
+    font-weight: 600;
+    color: whitesmoke;
+
+}
+.cont3>ul>li>.ri-linkedin-box-line{
+    font-size: 3vmax;
+}
+.cont3>ul>li>.ri-linkedin-box-line:hover{
+    cursor:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.3362 18.339H15.6707V14.1622C15.6707 13.1662 15.6505 11.8845 14.2817 11.8845C12.892 11.8845 12.6797 12.9683 12.6797 14.0887V18.339H10.0142V9.75H12.5747V10.9207H12.6092C12.967 10.2457 13.837 9.53325 15.1367 9.53325C17.8375 9.53325 18.337 11.3108 18.337 13.6245V18.339H18.3362ZM7.00373 8.57475C6.14573 8.57475 5.45648 7.88025 5.45648 7.026C5.45648 6.1725 6.14648 5.47875 7.00373 5.47875C7.85873 5.47875 8.55173 6.1725 8.55173 7.026C8.55173 7.88025 7.85798 8.57475 7.00373 8.57475ZM8.34023 18.339H5.66723V9.75H8.34023V18.339ZM19.6697 3H4.32923C3.59498 3 3.00098 3.5805 3.00098 4.29675V19.7033C3.00098 20.4202 3.59498 21 4.32923 21H19.6675C20.401 21 21.001 20.4202 21.001 19.7033V4.29675C21.001 3.5805 20.401 3 19.6675 3H19.6697Z"></path></svg>'),auto;
+    font-weight: 600;
+    color: whitesmoke;
+
+}
+.cont3>h2{
+    font-size: 2vmax;
+
+}

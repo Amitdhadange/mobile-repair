@@ -1,2 +1,3 @@
-# mobile-repair-landingpage
-This is Mobile landing-page
+# mobile-repair
+This is Mobile repair 
+https://amitdhadange.github.io/mobile-repair/
